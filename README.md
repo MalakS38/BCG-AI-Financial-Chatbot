@@ -49,7 +49,7 @@ Example questions:
 
 ## Certification
 
-This project includes a certificate of completion (available in the `/certificate` folder).
+This project includes a certificate of completion.
 
 ## How to Run
 
