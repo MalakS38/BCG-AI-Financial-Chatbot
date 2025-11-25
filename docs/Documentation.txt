@@ -1,0 +1,61 @@
+# AI Financial Chatbot Prototype – Documentation
+
+
+
+This AI-powered chatbot is designed to answer predefined financial queries using real-world company data from Microsoft, Tesla, and Apple.
+
+The chatbot retrieves financial data and presents insights in a simple, conversational way.
+
+## Purpose
+
+The main goal of this project is to:
+
+- Analyze financial data from SEC filings
+- Provide fast, accurate answers to financial questions
+- Demonstrate how AI concepts can be applied in financial consulting
+
+## Supported Queries
+
+Users can ask about:
+
+- Total Revenue
+- Net Income
+- Debt Ratio
+- Operating Cash Flow
+- Revenue Growth (%)
+- Net Income Growth (%)
+- Asset Growth (%)
+- Operating Cash Flow Growth (%)
+
+
+# Example Questions:
+
+
+“What was Microsoft’s operating cash flow in 2024?”
+
+“Tesla cash flow 2023?”
+
+“Apple cash flow from operations?”
+
+“Did Tesla’s profit increase last year?”
+
+“Show Microsoft’s profit change.”
+
+“What’s the change in Apple’s net income?”
+
+        
+
+
+#  How It Works:
+
+The chatbot loads the analyzed financial data using pandas.
+
+It then identifies the company and year mentioned in the query or defaulting to the most recent year if year is not specified.
+
+Using conditional (if-elif) statements, it maps user’s query to the appropriate function and returns the result.
+
+# Current Limitations
+
+- The chatbot uses rule-based logic (not NLP yet)
+- It supports predefined types of questions
+- Live SEC data is not connected yet
