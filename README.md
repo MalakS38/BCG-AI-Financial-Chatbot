@@ -54,8 +54,8 @@ This project includes a certificate of completion.
 ## Environment Setup and Execution
 
 1. Install dependencies
-/pip3 install pandas
+`pip3 install pandas`
 
 2. Run the chatbot
-/python3 chatbot.py
+`python3 chatbot.py`
 
