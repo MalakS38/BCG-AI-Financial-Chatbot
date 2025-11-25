@@ -51,9 +51,11 @@ Example questions:
 
 This project includes a certificate of completion.
 
-## How to Run
+## Environment Setup and Execution
 
-1. Install requirements: pip install pandas matplotlib
-2. Run the chatbot: python src/chatbot.py
-3. Run the financial analysis: python src/financial_analysis.py
+# 1. Install dependencies
+pip3 install pandas
+
+# 2. Run the chatbot
+python3 chatbot.py
 
